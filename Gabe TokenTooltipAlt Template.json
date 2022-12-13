@@ -1,0 +1,865 @@
+{
+  "gmSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#1ef7b2",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "character": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "useAccentEverywhere": false,
+        "accentColor": "#ababab",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "npc": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "useAccentEverywhere": false,
+        "accentColor": "#49efe8",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "hazard": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#d0e540",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "loot": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#15637a",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "familiar": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#fc1226",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "vehicle": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#9ef0a7",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    }
+  },
+  "playerSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#f81c52",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "character": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "attributes.hp",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#28e62c"
+            },
+            {
+              "value": "attributes.ac.value",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#201dc3"
+            },
+            {
+              "value": "attributes.speed.total",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#000000"
+            },
+            {
+              "value": "attributes.perception.value",
+              "icon": "fa-eye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#dfd562"
+            },
+            {
+              "value": "saves.fortitude.value",
+              "icon": "fa-dumbbell",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#d25151"
+            },
+            {
+              "value": "saves.reflex.value",
+              "icon": "fa-running",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#669ec2"
+            },
+            {
+              "value": "saves.will.value",
+              "icon": "fa-brain",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#b521c0"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NEUTRAL",
+        "useAccentEverywhere": false,
+        "accentColor": "#ca6516",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "npc": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NEUTRAL",
+        "useAccentEverywhere": false,
+        "accentColor": "#e3838c",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "hazard": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#e46e13",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "loot": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#9c1fd0",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "familiar": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#86ea49",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "vehicle": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#25f704",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    }
+  }
+}
